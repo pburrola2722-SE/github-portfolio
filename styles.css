@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-image: linear-gradient(to bottom, #fff, #D1EDC);
+  background-color: #E5DDD1;
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+
+
+
+.wrapper {
+  width: 80%;
+  padding: 2em;
+  background-color: rgba(255,255,255,.5);
+  margin: auto;
+  max-width: 1200px;
+  min-width: 600px;
+  box-shadow: 5px 5px 5px #828282;
+}
+main, footer, .contact {
+  padding: 20px;
+  background-image: url("images/1-Hero-Home1200x600pt2.jpg") 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+header {
+  background-color: #687C63;
+  background-image: url("images/1-background-art-header-1.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  color: #FFFFFF;
+  line-height: 350%;
+}
+header h1 {
+  padding: 10px;
+  margin: 0;
+}
+nav {
+  background-color: #859e7e;
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #000000;
+  color: #FFFFFF;
+}
+
+.gallery { 
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+gap: 1em; 
+align-left:
+}
+
+.card img { 
+width: 100%; 
+}
+
+.contact-container {
+	
+	body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Contact Form Container */
+.contact-container {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Limit the maximum width of the form */
+}
+
+/* Heading Style */
+.contact-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+/* Form Group Layout */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label Styling */
+.form-group label {
+    display: block; /* Makes the label take its own line */
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input and Textarea Styling */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+/* Focus State */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff; /* Highlight color on focus */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Textarea specific adjustments */
+.form-group textarea {
+    resize: vertical; /* Allows vertical resizing by the user */
+}
+
+/* Submit Button Styling */
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #859e7e; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    margin-top: 20px;
+}
+
+/* Submit Button Hover State */
+.submit-btn:hover {
+    background-color: #687C63; /* Darker blue on hover */
+}
+
+/* Submit Button Active State */
+.submit-btn:active {
+    transform: translateY(1px); /* Slight press effect */
+}
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+h2 {
+  color: #687C63;
+}
+dt {
+  color: #687C63;
+}
+
+p, li, i {
+	color: #000000;
+}
+.burrola {
+  color: #000000;
+}
